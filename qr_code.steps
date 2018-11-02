@@ -1,0 +1,6 @@
+detect all black rectangles
+extract the contours of the (two biggest rectangles)/(rectangles that fit the positioning of a qr code) out of those contours
+make a 25 * 25 matrix over the image using the contours of the locating squares 
+just extracted
+detect all the sub-contour points for which the color inside them is black
+apply the soving algorithm
